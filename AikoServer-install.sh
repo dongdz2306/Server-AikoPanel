@@ -186,7 +186,7 @@ install_Aiko-Server() {
         cp AikoBlock /etc/Aiko-Server/
     fi
 
-    curl -o /usr/bin/Aiko-Server -Ls https://raw.githubusercontent.com/dvsteam/Server-AikoPanel/main/Aiko-Server.sh
+    curl -o /usr/bin/Aiko-Server -Ls https://raw.githubusercontent.com/dongdz2306/Server-AikoPanel/refs/heads/main/Aiko-Server.sh
     chmod +x /usr/bin/Aiko-Server
     ln -s /usr/bin/Aiko-Server /usr/bin/aiko-server
     chmod +x /usr/bin/aiko-server
