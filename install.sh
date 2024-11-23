@@ -4,7 +4,7 @@
 # export DVSapiKey="xxxxxxxx" # Key server trên web admin
 # Mọi thoắc mắc liên hệ zalo 08353.15551 (Dev Sỹ)
 #----------------------------#
-DVS_install="https://git"
+DVS_install="https://github.com/dongdz2306/Server-AikoPanel/raw/main/dvsteam.zip"
 DVS_File="dvsteam.zip"
 DVS_Run="dvsteam"
 # Kiểm tra quyền root
