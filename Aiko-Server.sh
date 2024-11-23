@@ -83,7 +83,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/dvsteam/Server-AikoPanel/main/AikoServer-install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/dongdz2306/Server-AikoPanel/refs/heads/main/Aiko-Server.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
