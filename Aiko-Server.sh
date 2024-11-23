@@ -383,7 +383,7 @@ generate_config_file() {
             esac
 
             cat <<EOF >> /etc/Aiko-Server/aiko.yml
-  - PanelType: "AikoPanel"
+  - PanelType: "ZicBoard"
     ApiConfig:
       ApiHost: "${ApiHost}"
       ApiKey: "${ApiKey}"
